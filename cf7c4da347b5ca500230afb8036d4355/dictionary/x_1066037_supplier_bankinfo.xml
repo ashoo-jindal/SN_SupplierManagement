@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2bfaf12347b9ca500230afb8036d4338" label="Bank Info" max_length="40" name="x_1066037_supplier_bankinfo" type="collection">
+        <element label="Bank Ac No." max_length="100" name="bank_ac_no" type="string"/>
+        <element label="Bank Name" max_length="100" name="bank_name" type="string"/>
+        <element label="Duns number" max_length="100" name="duns_no" type="string"/>
+        <element label="Supplier" max_length="32" name="supplier" reference="x_1066037_supplier_sup" type="reference"/>
+        <index name="index" unique="true">
+            <element name="bank_ac_no"/>
+        </index>
+        <index name="index2">
+            <element name="supplier"/>
+        </index>
+    </element>
+</database>

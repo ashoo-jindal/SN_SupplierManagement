@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Next Assessment Date should be 3 months after Last Assessment Date.</description>
+        <field>last_assessment_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AJ_Sup_Next_Assess_Date_Auto</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var lastAssess = g_form.getValue('last_assessment_date');
+   var lastDate = new Date(lastAssess);
+
+   var nextDate = lastDate.setMonth(lastDate.getMonth() + 3);
+   nextDate = formatDate(nextDate);
+
+   g_form.setValue('next_assessment_date', nextDate);
+   
+}
+
+
+function formatDate(date) {
+    var d = new Date(date),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear();
+
+    if (month.length < 2) 
+        month = '0' + month;
+    if (day.length < 2) 
+        day = '0' + day;
+
+    return [year, month, day].join('-');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-05 06:24:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56a1ac64478202900230afb8036d435d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AJ_Sup_Next_Assess_Date_Auto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope>
+        <sys_update_name>sys_script_client_56a1ac64478202900230afb8036d435d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-05 06:47:02</sys_updated_on>
+        <table>x_1066037_supplier_sup</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9961d1ab47b5ca500230afb8036d43be" label="Supplier" max_length="40" name="x_1066037_supplier_sup" type="collection">
+        <element label="Active Days" max_length="255" name="active_days" read_only="true" type="integer"/>
+        <element label="Added By" mandatory="true" max_length="32" name="added_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="500" name="address" type="string"/>
+        <element label="Approved Date" max_length="255" name="approved_date" read_only="true" type="glide_date"/>
+        <element label="Bank ac no" max_length="40" name="bank_ac_no" type="string"/>
+        <element label="Bank Name" max_length="40" name="bank_name" type="string"/>
+        <element attributes="encode_utf8=false" label="City" mandatory="true" max_length="32" name="city" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Email" max_length="150" name="contact_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Name" max_length="100" name="contact_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Phone" max_length="40" name="contact_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract End Date" max_length="40" name="contract_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Start Date" max_length="40" name="contract_start_date" type="glide_date"/>
+        <element label="Created Date" max_length="255" name="created_date" read_only="true" type="glide_date"/>
+        <element label="DUNS No." max_length="40" name="duns_no" type="string"/>
+        <element label="Incident No" max_length="32" name="incident_no" reference="incident" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Assessment Date" max_length="40" name="last_assessment_date" type="glide_date"/>
+        <element label="Next Assessment Date" max_length="255" name="next_assessment_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="500" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Performance Rating" max_length="15" name="performance_rating" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Inactive" value="inactive"/>
+                <element inactive_on_update="false" label="Under Review" value="under_review"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Supplier Name" mandatory="true" max_length="250" name="supplier_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Supplier Type" mandatory="true" max_length="40" name="supplier_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Both" value="both"/>
+                <element inactive_on_update="false" label="Goods" value="goods"/>
+                <element inactive_on_update="false" label="Services" value="services"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Tax id" max_length="40" name="tax_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="40" name="zip_code" type="string"/>
+        <index name="index">
+            <element name="added_by"/>
+        </index>
+        <index name="index2">
+            <element name="city"/>
+        </index>
+        <index name="index3">
+            <element name="incident_no"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

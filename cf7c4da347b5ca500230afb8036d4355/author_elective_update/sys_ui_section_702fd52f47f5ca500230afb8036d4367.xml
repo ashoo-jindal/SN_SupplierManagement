@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Banking and Tax Information" section_id="702fd52f47f5ca500230afb8036d4367" sys_domain="global" table="x_1066037_supplier_sup" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 08:13:38</sys_created_on>
+            <sys_id>e98fdd2f47f5ca500230afb8036d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking and Tax Information" display_value="Banking and Tax Information" name="x_1066037_supplier_sup" sys_domain="global" view="Default view">702fd52f47f5ca500230afb8036d4367</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 08:13:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_ac_no</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 08:13:38</sys_created_on>
+            <sys_id>e18fdd2f47f5ca500230afb8036d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking and Tax Information" display_value="Banking and Tax Information" name="x_1066037_supplier_sup" sys_domain="global" view="Default view">702fd52f47f5ca500230afb8036d4367</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 08:13:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 08:13:38</sys_created_on>
+            <sys_id>e98fdd2f47f5ca500230afb8036d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking and Tax Information" display_value="Banking and Tax Information" name="x_1066037_supplier_sup" sys_domain="global" view="Default view">702fd52f47f5ca500230afb8036d4367</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 08:13:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duns_no</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 08:13:38</sys_created_on>
+            <sys_id>e18fdd2f47f5ca500230afb8036d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Banking and Tax Information" display_value="Banking and Tax Information" name="x_1066037_supplier_sup" sys_domain="global" view="Default view">702fd52f47f5ca500230afb8036d4367</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 08:13:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Banking and Tax Information</caption>
+            <header>false</header>
+            <name>x_1066037_supplier_sup</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 08:11:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>702fd52f47f5ca500230afb8036d4367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1066037_supplier_sup</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope>
+            <sys_update_name>sys_ui_section_702fd52f47f5ca500230afb8036d4367</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 08:11:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</application>
+        <file_path/>
+        <instance_id>284de22fdbed6d1cdc3fc597059619f7</instance_id>
+        <instance_name>dev166132</instance_name>
+        <name>sys_ui_section_702fd52f47f5ca500230afb8036d4367</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Banking and Tax Information" section_id="702fd52f47f5ca500230afb8036d4367" sys_domain="global" table="x_1066037_supplier_sup" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>bank_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-02 08:13:38</sys_created_on><sys_id>e98fdd2f47f5ca500230afb8036d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Banking and Tax Information" display_value="Banking and Tax Information" name="x_1066037_supplier_sup" sys_domain="global" view="Default view">702fd52f47f5ca500230afb8036d4367</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-02 08:13:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bank_ac_no</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-02 08:13:38</sys_created_on><sys_id>e18fdd2f47f5ca500230afb8036d43bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Banking and Tax Information" display_value="Banking and Tax Information" name="x_1066037_supplier_sup" sys_domain="global" view="Default view">702fd52f47f5ca500230afb8036d4367</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-02 08:13:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-02 08:13:38</sys_created_on><sys_id>e98fdd2f47f5ca500230afb8036d43bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Banking and Tax Information" display_value="Banking and Tax Information" name="x_1066037_supplier_sup" sys_domain="global" view="Default view">702fd52f47f5ca500230afb8036d4367</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-02 08:13:38</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>duns_no</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-02 08:13:38</sys_created_on><sys_id>e18fdd2f47f5ca500230afb8036d43c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Banking and Tax Information" display_value="Banking and Tax Information" name="x_1066037_supplier_sup" sys_domain="global" view="Default view">702fd52f47f5ca500230afb8036d4367</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-02 08:13:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Banking and Tax Information</caption><header>false</header><name>x_1066037_supplier_sup</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-02 08:11:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>702fd52f47f5ca500230afb8036d4367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1066037_supplier_sup</sys_name><sys_overrides/><sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package><sys_policy/><sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope><sys_update_name>sys_ui_section_702fd52f47f5ca500230afb8036d4367</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-02 08:11:57</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-809305226</payload_hash>
+        <record_name>Supplier</record_name>
+        <reverted_from/>
+        <source>477c4da347b5ca500230afb8036d435a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 08:13:38</sys_created_on>
+        <sys_id>658fdd2f47f5ca500230afb8036d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f385dbe1c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 08:13:38</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>2d8fdd2ff4f5ca50bb07b4cdfd9b1cc1</update_guid>
+        <update_guid_history>2d8fdd2ff4f5ca50bb07b4cdfd9b1cc1:-809305226,cd2fd52f6df5ca504a1519e9b51c598e:2080809450</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 10:19:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>bf08128888904a7e91e408a33cdca424</sys_id>
+        <sys_metadata>702fd52f47f5ca500230afb8036d4367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Banking and Tax Information</sys_name>
+        <sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package>
+        <sys_parent display_value="Supplier">9961d1ab47b5ca500230afb8036d43be</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope>
+        <sys_scope_delete display_value="">843c41e27f984a64a8a35bcc5266e561</sys_scope_delete>
+        <sys_update_name>sys_ui_section_702fd52f47f5ca500230afb8036d4367</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_702fd52f47f5ca500230afb8036d4367">658fdd2f47f5ca500230afb8036d43c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 10:19:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

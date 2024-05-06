@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 12:30:03</sys_created_on>
+        <sys_id>041a92e7473dca500230afb8036d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckBankAccount.x_1066037_supplier.user</sys_name>
+        <sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope>
+        <sys_security_acl display_value="CheckBankAccount">a8b992e7473dca500230afb8036d43e6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_041a92e7473dca500230afb8036d43c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 12:30:03</sys_updated_on>
+        <sys_user_role display_value="x_1066037_supplier.user" name="x_1066037_supplier.user">acfc0da347b5ca500230afb8036d4377</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</application>
+        <file_path/>
+        <instance_id>284de22fdbed6d1cdc3fc597059619f7</instance_id>
+        <instance_name>dev166132</instance_name>
+        <name>sys_security_acl_role_041a92e7473dca500230afb8036d43c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-02 12:30:03</sys_created_on><sys_id>041a92e7473dca500230afb8036d43c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CheckBankAccount.x_1066037_supplier.user</sys_name><sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package><sys_policy/><sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope><sys_security_acl display_value="CheckBankAccount">a8b992e7473dca500230afb8036d43e6</sys_security_acl><sys_update_name>sys_security_acl_role_041a92e7473dca500230afb8036d43c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-02 12:30:03</sys_updated_on><sys_user_role display_value="x_1066037_supplier.user" name="x_1066037_supplier.user">acfc0da347b5ca500230afb8036d4377</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1354653557</payload_hash>
+        <record_name>CheckBankAccount.x_1066037_supplier.user</record_name>
+        <reverted_from/>
+        <source>477c4da347b5ca500230afb8036d435a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 12:30:03</sys_created_on>
+        <sys_id>a13ade2b473dca500230afb8036d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f39487f020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 12:30:03</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a53ade2b5a3dca508edf9dad7a4dcf07</update_guid>
+        <update_guid_history>a53ade2b5a3dca508edf9dad7a4dcf07:-1354653557</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CheckBankAccount.x_1066037_supplier.user">0d4a9e2b473dca500230afb8036d431a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 12:30:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>531414f0fa6f4600ab774b6adbe40000</sys_id>
+        <sys_metadata>041a92e7473dca500230afb8036d43c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckBankAccount.x_1066037_supplier.user</sys_name>
+        <sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package>
+        <sys_parent display_value="CheckBankAccount">a8b992e7473dca500230afb8036d43e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope>
+        <sys_scope_delete display_value="">843c41e27f984a64a8a35bcc5266e561</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_041a92e7473dca500230afb8036d43c8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_041a92e7473dca500230afb8036d43c8">a13ade2b473dca500230afb8036d4308</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 12:30:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

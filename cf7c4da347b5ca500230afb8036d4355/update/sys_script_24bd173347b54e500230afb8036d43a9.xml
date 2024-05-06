@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1066037_supplier_sup</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>AJ_Sup_BR_Get_Last_User</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+ 
+	var gr = new GlideRecord('x_1066037_supplier_sup');
+	gr.orderByDesc('sys_created_on');
+	gr.setLimit(1);	
+	gr.query();
+	
+	if (gr.next()) {
+		g_scratchpad.lastUser = gr.added_by.getDisplayValue();
+		g_scratchpad.lastUserEmail = gr.added_by.email.getDisplayValue();
+		g_scratchpad.lastUserManager = gr.added_by.manager.getDisplayValue();
+	} else {
+		g_scratchpad.lastUser  = null;
+		g_scratchpad.lastUserEmail = null;
+		g_scratchpad.lastUserManager = null;		
+	}
+
+//	alert(g_scratchpad.lastUser);
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 12:04:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>24bd173347b54e500230afb8036d43a9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>AJ_Sup_BR_Get_Last_User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope>
+        <sys_update_name>sys_script_24bd173347b54e500230afb8036d43a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 12:40:37</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=24bd173347b54e500230afb8036d43a9"/>
+</record_update>

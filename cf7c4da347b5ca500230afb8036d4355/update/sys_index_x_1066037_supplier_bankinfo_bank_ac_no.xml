@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>bank_ac_no</col_name_string>
+        <index_col_name element="bank_ac_no" name="x_1066037_supplier_bankinfo">c27bbd2347b9ca500230afb8036d43dd</index_col_name>
+        <logical_table_name>x_1066037_supplier_bankinfo</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-02 10:58:39</sys_created_on>
+        <sys_id>fe4502af47b9ca500230afb8036d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1066037_supplier_bankinfo</sys_name>
+        <sys_package display_value="Supplier Management" source="x_1066037_supplier">cf7c4da347b5ca500230afb8036d4355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Supplier Management">cf7c4da347b5ca500230afb8036d4355</sys_scope>
+        <sys_update_name>sys_index_x_1066037_supplier_bankinfo_bank_ac_no</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-05-02 10:58:39</sys_updated_on>
+        <table display_value="Bank Info" name="x_1066037_supplier_bankinfo">2bfaf12347b9ca500230afb8036d4338</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>
